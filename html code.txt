@@ -1,0 +1,305 @@
+1)HOme Page HTML
+
+----------------
+
+
+<img src="916d6abbb09348899e28742118f15254.png" style="border: 0; width: 133px; height: 38px;"/>	
+<STRONG>
+	<FONT color=#7f7f7f face=Arial size=4>
+		<SpotfireControl id="084df6f3ff724278a38fc23266052243" />
+	</FONT>
+</STRONG>
+
+=================================================================================
+
+
+
+
+
+
+
+
+2) KPI Boxex HTML
+--------------------
+<table style="width: 100%; height: 100%;" border="0">
+	<tr>
+		<td>
+			<table style="width: 100%; height: 100%;border-color: #5E9BD9" border="1">
+				<tr>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% of KRI Threshold Breaches<br><br><SpotfireControl id="224a9e9a9c804a619794292cb9ec7cec" /> <SpotfireControl id="6cafb266aea54ed99150dc2d7dd543d5" /></STRONG>
+						</FONT>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table style="width: 100%; height: 100%;border-color: #5E9BD9" border="1">
+				<tr>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% Adherence to CMR Schema<br><br> </STRONG>
+						</FONT>
+					</td>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% of CMRs Rejected<br><br></STRONG>
+						</FONT>
+					</td>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% Adherence to CMR Cycle Time<br><br></STRONG>
+						</FONT>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table style="width: 100%; height: 100%;border-color: #5E9BD9;" border="1">
+				<tr>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9;">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% of Modified Actions<br><br>
+</STRONG>
+						</FONT>
+					</td>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9;">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% of Triggered On Site Visits<br><br></STRONG>
+						</FONT>
+					</td>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9;">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% of Actions Completed On Time<br><br><SpotfireControl id="9738e6a17165484e85e2c2ba8aa229c5" /> <SpotfireControl id="3a55fc76058043e79aa62369f2cce635" /></STRONG>
+						</FONT>
+					</td>
+					<td style="text-align: center; vertical-align: middle;border-color: #5E9BD9;">
+						<FONT size=3 face=Arial color=#5E9BD9>
+							<STRONG>% of Actions Completed by Alternate Method<br><br></STRONG>
+						</FONT>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+===========================================================================================
+
+
+
+
+
+
+
+3) Top Menu html
+------------------
+<STYLE>
+#wrap	{
+	height: 25px; 
+	margin: 0; 
+	z-index: 99; 
+	position: relative; 
+	background-color: #5E9BD9;
+	}
+.navbar	{
+	height: 25px;
+        padding: 0;
+	margin: 0;
+	position: absolute;
+	border-right: 1px solid #ccc; 
+	}
+.navbar li {
+	height: 25px;
+	width: 120px; 
+	float: left; 
+	text-align: center; 
+	list-style: none; 
+	font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+	padding: 0;
+	margin: 0;
+	background-color: #5E9BD9;
+        }
+.navbar a{	
+	line-height:1;
+	height:8px;
+	padding: 8px 0; 
+	border-left: 1px solid #ccc; 
+	border-right: 1px solid #ccc; 
+	text-decoration: none; 
+	color: white;
+	display: block;
+	}
+.navbar li:hover, a:hover {
+	background-color: #F3C108;
+	} 
+.navbar li ul {
+	display: none;
+	height:auto;	
+	margin: 0; 
+	padding: 0; 		
+	}				
+.navbar li:hover ul {
+        display: block; 
+	position:fixed;
+	width:200px;
+        }
+.navbar li ul li a{
+	background-color: #f2f2f2;
+	color:#004a80;
+	border-left: 1px solid #0070c0; 
+	border-right: 1px solid #0070c0; 
+	border-top: 1px solid #0070c0; 
+	border-bottom: 1px solid #0070c0; 
+	}
+.navbar li ul li a.subcurrent{
+	background-color: #C5D9F1;
+	color:#0070c0;
+	border-left: 1px solid #0070c0; 
+	border-right: 1px solid #0070c0; 
+	border-top: 1px solid #0070c0; 
+	border-bottom: 1px solid #0070c0; 
+	}				
+.navbar li ul li a:hover{
+	background-color: #F3C108;
+	}
+.help-icon {
+	position:fixed;
+	top: 3px;
+	right: 212px;
+	background:#5E9BD9;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	line-height: 20px;
+}
+.help{
+	position:fixed;
+	top: 85px;
+	left: 181px;
+	width: 952px;
+	height: 181px;
+	background-color: #2B2B2B;
+	display: none;
+	border-radius: 7px;
+	box-shadow: 10px 10px 5px #888888;
+	padding:10px;
+	z-index: 1000;
+}
+.help-close {
+	background-color:#F26868;
+	height:17px;
+	width:15px;
+	color:white;
+	font-weight:bolder;
+	float:right;
+	text-align:center;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+</STYLE>
+<img src="eda6646f8d6f41b09a4add3b56cc9f2d.png" style="border: 0; width: 133px; height: 38px;"/>	
+<STRONG>
+	<FONT color=#7f7f7f face=Arial size=4>
+		<SpotfireControl id="f135e1933d104760a59c9db6141a02cf" />
+	</FONT>
+</STRONG>
+<DIV id=wrap>
+	<UL class=navbar>
+		<LI><SpotfireControl id="c1b1e0d7a2a047489f52c8d09d147a58" /></LI>
+		<LI><SpotfireControl id="c7efe1182a624966b6b5f98f351a555f" /></LI>
+		<LI><SpotfireControl id="79aa033e6b104f6ba8a69dfe4ed4fe54" /></LI>
+		<LI><SpotfireControl id="41cf7be698e544b19c6a268daf60f0f7" /></LI>
+		<LI><SpotfireControl id="fdd4c66d0f184efbb4608f8485d44053" /></LI>
+		<LI><SpotfireControl id="3e77d714118541328cf5f602fe9fc819" /></LI>
+		<LI><SpotfireControl id="ca61508f111f45afa829f85bf40fe0e0" /></LI>
+		<LI>
+			<A href="#">Adhoc</A> 
+			<UL>
+				<LI><SpotfireControl id="055feb75f84d4ed894e66dcff418550a" /></LI>
+				<LI><SpotfireControl id="182167c71e494650a2b76fd80e1d059d" /></LI>
+			</UL>
+		</LI>
+		<LI><SpotfireControl id="32d1c5842d4e414c9961f9495a4d355a" /></LI>
+	</UL>
+</DIV>
+
+=========================================================================================
+
+
+
+
+
+4) Left hand side filter html
+------------------------------
+
+<P>
+	<FONT size=3 face=Arial color=#4682b8>
+		<STRONG>Selection Panel</STRONG>
+	</FONT>
+</P>
+<P>
+	<FONT size=2 face=Arial>
+		<STRONG>Study Number:</STRONG>
+	</FONT>
+</P>
+<P>
+	<SpotfireControl id="db0b95a4432943459b939ecedb128cf8" />
+</P>
+<P>
+	<FONT size=2 face=Arial>
+		<STRONG>Site Number:</STRONG>
+	</FONT>
+</P>
+<P>
+	<SpotfireControl id="5b20629a709e44b9b2210b70d75da9f1" />
+</P>
+<P>
+	<FONT size=2 face=Arial>
+		<STRONG>Central Monitor Name:</STRONG>
+	</FONT>
+</P>
+<P>
+	<SpotfireControl id="108c9edab4064f80838a80210e69d28e" />
+</P>
+<P>
+	<FONT size=2 face=Arial>
+		<STRONG>KRI Text:</STRONG>
+	</FONT>
+</P>
+<P>
+	<SpotfireControl id="39fe710f3ae346a8866a325d7ddfe4fc" />
+</P>
+<P>
+	<FONT size=2 face=Arial>
+		<STRONG>KRI Evaluation:</STRONG>
+	</FONT>
+</P>
+<P>
+	<SpotfireControl id="a02fb05afcd64b8cb4eaa530b172d3a9" />
+</P>
+<P>
+	<FONT size=2 face=Arial>
+		<STRONG>KRI Outcome:</STRONG>
+	</FONT>
+</P>
+<P>
+	<SpotfireControl id="53f74cd03c654caab412d853eb2d1bf9" />
+</P>
+<P>
+	<FONT size=2 face=Arial>
+		<STRONG>Action Code:</STRONG>
+	</FONT>
+</P>
+<P>
+	<SpotfireControl id="d3885e4bc6924e1489a9ac141d299124" />
+</P>
+
